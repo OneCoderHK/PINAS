@@ -337,7 +337,7 @@ sudo swapoff -v /swapfile
 
 # Настройка OpenMediaValut
 
-[Найстройка](https://pcminipro.ru/os/linux-armbian/ustanovka-open-media-vault-omv-nas-server-v-armbian-debian/)
+[Настройка](https://pcminipro.ru/os/linux-armbian/ustanovka-open-media-vault-omv-nas-server-v-armbian-debian/)
 
 # Итого
 
