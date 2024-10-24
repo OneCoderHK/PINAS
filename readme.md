@@ -164,7 +164,7 @@ chmod 777 html
 
 ```
 sudo apt-get install samba
-sudo smbpasswd -a mrgobus
+sudo smbpasswd -a serverlb
 ```
 
 Правим файл настроек
@@ -177,10 +177,10 @@ sudo nano /etc/samba/smb.conf
 
 ```
 [mrgobus]
-path = /home/mrgobus
-valid users = mrgobus
+path = /home/serverlb
+valid users = 
 read only = No
-guest ok = No
+guest ok = Yes
 ```
 
 Перезапуск самбы
